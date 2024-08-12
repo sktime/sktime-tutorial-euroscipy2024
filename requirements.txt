@@ -1,0 +1,5 @@
+sktime
+statsmodels
+seaborn
+pmdarima
+jupyterlab
