@@ -41,17 +41,17 @@ def display_hierarchical_timeseries(y_train, y_test, forecasts = None):
         fig.tight_layout()
         plt.show()
 
-    # Get the list of available states
-    available_states = y_train.index \
+    # Get the list of available values at level 0
+    available_first_level = y_train.index \
                         .get_level_values(0) \
                         .unique()
                         
 
-    # Create a dropdown widget for state selection
+    # Create a dropdown widget for series selection
     first_level_selector = widgets.Dropdown(
-        options=[state for state in available_states if state != "__total"],
-        value=available_states[0],
-        description='State:',
+        options=[option for option in available_first_level if option != "__total"],
+        value=available_first_level[0],
+        description='Level 0:',
         disabled=False,
     )
 
