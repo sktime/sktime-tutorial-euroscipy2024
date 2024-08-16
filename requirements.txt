@@ -3,3 +3,7 @@ statsmodels
 seaborn
 pmdarima
 jupyterlab
+networkx
+numpy<2.0
+prophet
+optuna
