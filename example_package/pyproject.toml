@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "residualboosting"
+version = "0.1.0"
+description = "An example 2nd party sktime library"
+authors = ["Felipe Angelim <felipe.angelim@mercadolivre.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pytest = {version = "^8.3.2", optional = true}
+sktime = "^0.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
