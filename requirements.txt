@@ -1,4 +1,5 @@
 sktime
+scikit-learn>=1.4
 statsmodels
 seaborn
 pmdarima
@@ -10,3 +11,5 @@ optuna
 pytorch-forecasting
 torch<2.4.0
 lightning
+ipywidgets
+-e example_package/
