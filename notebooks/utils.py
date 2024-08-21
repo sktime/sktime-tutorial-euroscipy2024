@@ -1,6 +1,9 @@
+from typing import Tuple
+
 import ipywidgets as widgets
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 from IPython.display import display
 
 
@@ -57,3 +60,12 @@ def display_hierarchical_timeseries(y_train, y_test, forecasts = None):
 
     # Display the widget and link it to the plotting function
     return widgets.interactive(plot_for_given_level, selected_first_level=first_level_selector)
+
+
+def load_stallion() -> Tuple[pd.DataFrame, pd.DataFrame]:
+    data = pd.read_csv("data/stallion_data.csv")
+    data["date"] = pd.to_datetime(data["date"])
+    data = data.set_index(["agency", "sku", "date"])
+    y = data[["volume"]]
+    X = data.drop(columns="volume")
+    return X, y
