@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "residualboosting"
+name = "ensemble_forecasting"
 version = "0.1.0"
 description = "An example 2nd party sktime library"
 authors = ["Felipe Angelim <felipe.angelim@mercadolivre.com>"]
