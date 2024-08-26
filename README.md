@@ -78,14 +78,16 @@ To clone the repository locally:
 
 `git clone https://github.com/sktime/sktime-tutorial-euroscipy-2024`
 
+Open a console and navigate to the root of the repository clone.
+
 ### Using conda env
 
 1. Create a python virtual environment:
 `conda create -y -n sktime_euroscipy python=3.12`
-2. Install required packages:
-`conda install -y -n sktime_euroscipy pip sktime seaborn jupyter pmdarima statsmodels`
-3. Activate your environment:
+2. Activate your environment:
 `conda activate sktime_euroscipy`
+3. Install required packages:
+`conda run -n sktime_euroscipy pip install -r requirements.txt`
 4. If using jupyter: make the environment available in jupyter:
 `python -m ipykernel install --user --name=sktime_euroscipy`
 
