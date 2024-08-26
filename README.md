@@ -5,7 +5,7 @@ This tutorial is about [sktime] - a unified framework for machine learning with 
 
 `sktime` is easily extensible by anyone, and interoperable with the python data science stack.
 
-TODO: few-sentence-intro
+This tutorial gives an up-to-date introduction to sktime base features with a focus on forecasting, model building, hierarchical and global data, and marketplace features.
 
 [sktime]: https://www.sktime.net
 
