@@ -12,4 +12,5 @@ pytorch-forecasting
 torch<2.4.0
 lightning
 ipywidgets
+setuptools
 -e example_package/
