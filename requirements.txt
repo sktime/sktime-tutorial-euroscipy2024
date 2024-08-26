@@ -4,13 +4,7 @@ statsmodels
 seaborn
 pmdarima
 jupyterlab
-networkx
 numpy<2.0
 prophet
 optuna
-pytorch-forecasting
-torch<2.4.0
-lightning
 ipywidgets
-setuptools
--e example_package/
