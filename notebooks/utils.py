@@ -64,7 +64,7 @@ def display_hierarchical_timeseries(y_train, y_test, forecasts = None):
 
 def load_stallion() -> Tuple[pd.DataFrame, pd.DataFrame]:
     data = pd.read_csv("data/stallion_data.csv")
-    data["date"] = pd.to_datetime(data["date"])
+    data["date"] = pd.to_datetime(data["date"]).dt.to_period("M")
     data = data.set_index(["agency", "sku", "date"])
     y = data[["volume"]]
     X = data.drop(columns="volume")
