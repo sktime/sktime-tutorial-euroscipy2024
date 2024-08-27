@@ -9,7 +9,7 @@ This tutorial gives an up-to-date introduction to sktime base features with a fo
 
 [sktime]: https://www.sktime.net
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-euroscipy-2024/main?filepath=notebooks) [![!discord](https://img.shields.io/static/v1?logo=discord&label=discord&message=chat&color=lightgreen)](https://discord.com/invite/54ACzaFsn7) [![!slack](https://img.shields.io/static/v1?logo=linkedin&label=LinkedIn&message=news&color=lightblue)](https://www.linkedin.com/company/scikit-time/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-euroscipy2024/main?filepath=notebooks) [![!discord](https://img.shields.io/static/v1?logo=discord&label=discord&message=chat&color=lightgreen)](https://discord.com/invite/54ACzaFsn7) [![!slack](https://img.shields.io/static/v1?logo=linkedin&label=LinkedIn&message=news&color=lightblue)](https://www.linkedin.com/company/scikit-time/)
 
 ## :rocket: How to get started
 
@@ -21,7 +21,7 @@ You have different options how to run the tutorial notebooks:
 * Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
 * or, use python venv, and/or an editable install of this repo as a package. Instructions below.
 
-[Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-euroscipy-2024/main?filepath=notebooks
+[Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-euroscipy2024/main?filepath=notebooks
 [clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 [conda]: https://docs.conda.io/en/latest/
 [installation instructions]: https://www.sktime.net/en/latest/installation.html
@@ -101,7 +101,7 @@ There are two requirements files, since installing dependencies for foundation m
 
 To clone the repository locally:
 
-`git clone https://github.com/sktime/sktime-tutorial-euroscipy-2024`
+`git clone https://github.com/sktime/sktime-tutorial-euroscipy2024`
 
 Open a console and navigate to the root of the repository clone.
 
