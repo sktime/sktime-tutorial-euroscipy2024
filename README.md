@@ -18,7 +18,8 @@ In the tutorial, we will move through notebooks section by section.
 You have different options how to run the tutorial notebooks:
 
 * Run the notebooks in the cloud on [Binder] - for this you don't have to install anything!
-* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
+    * this will *not* install heavy dependencies such as deep learning or foundation models
+* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
 * or, use python venv, and/or an editable install of this repo as a package. Instructions below.
 
 [Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-euroscipy2024/main?filepath=notebooks
@@ -130,10 +131,8 @@ Open a console and navigate to the root of the repository clone.
 
 ### Deep learning dependencies
 
-To set up an environment with deep learning dependencies, repeat the above with `requirements` instead of `requirements_lite`,
+To set up an environment with deep learning dependencies, repeat the above with `requirements_full` instead of `requirements_lite`,
 you may need to use a new environment name, e.g., `sktime_euroscipy_with_dl`.
-
-You can also `pip install requirements_dl.txt` to only install the additional requirements, but this may result in version resolution conflicts.
 
 ### Installing the example package
 
