@@ -8,7 +8,5 @@ jupyterlab
 numpy<2.0
 prophet
 optuna
-ipywidgets
-networkx
 pytest
 -e ./example_package

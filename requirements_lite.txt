@@ -8,5 +8,4 @@ jupyterlab
 numpy<2.0
 prophet
 optuna
-ipywidgets
 pytest
