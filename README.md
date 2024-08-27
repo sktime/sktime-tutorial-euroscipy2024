@@ -5,7 +5,7 @@ This tutorial is about [sktime] - a unified framework for machine learning with 
 
 `sktime` is easily extensible by anyone, and interoperable with the python data science stack.
 
-This tutorial gives an up-to-date introduction to sktime base features with a focus on forecasting, model building, hierarchical and global data, and marketplace features.
+This tutorial gives an up-to-date introduction to sktime base features with a focus on forecasting, model building, hierarchical/global forecasts, foundation models for forecasting, and marketplace features.
 
 [sktime]: https://www.sktime.net
 
@@ -36,7 +36,7 @@ This tutorial gives a hands-on introduction to sktime, for common time series le
 
 The tutorial then proceeds to showcase some of the newest features in 2024, based on a hierarchical demand forecasting use case example: support for foundation models, hugging face connectors, advanced support for hierarchical and global forecasts, and integration features for creating API compatible algorithms and sharing them via the sktime discoverability tools.
 
-The tutorial gives an up-to-date introduction to sktime base features with a focus on forecasting, model building, hierarchical and global data, and marketplace features.
+This tutorial gives an up-to-date introduction to sktime base features with a focus on forecasting, model building, hierarchical/global forecasts, foundation models for forecasting, and marketplace features.
 
 It showcases a selection of new and exciting features 2024:
 
