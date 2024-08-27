@@ -93,7 +93,7 @@ Then, in your notebook viewer, open the respective notebook file, and select a k
 
 There are two requirements files, since installing dependencies for foundation models takes long due to large package sizes. During the live tutorial, we recommend using binder for the latter to avoid long download and install times.
 
-* `requirements.txt` for "lightweight" packages used in notebooks 0-2
+* `requirements_lite.txt` for "lightweight" packages used in notebooks 0-2
 * `requirements_dl.txt` for deep learning and foundation models, notebook 3
 * the demo package from notebook 4 can be installed directly
 
@@ -130,9 +130,10 @@ Open a console and navigate to the root of the repository clone.
 
 ### Deep learning dependencies
 
-For the deep learning dependencies, ensure your environment is activated in the console, potentially by re-executing step 2 above.
+To set up an environment with deep learning dependencies, repeat the above with `requirements` instead of `requirements_lite`,
+you may need to use a new environment name, e.g., `sktime_euroscipy_with_dl`.
 
-Then type: `pip install requirements_dl.txt` to install the requirements.
+You can also `pip install requirements_dl.txt` to only install the additional requirements, but this may result in version resolution conflicts.
 
 ### Installing the example package
 
