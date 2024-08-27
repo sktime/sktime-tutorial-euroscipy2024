@@ -5,5 +5,5 @@ forecasting_results.csv
 Pipfile
 Pipfile.lock
 notebooks/lightning_logs
-
-
+# Egg info dir
+*.egg-info/
