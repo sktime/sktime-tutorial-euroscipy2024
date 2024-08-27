@@ -1,4 +1,4 @@
-sktime
+sktime==0.32.2
 scikit-learn>=1.4
 skpro
 statsmodels
