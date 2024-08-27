@@ -1,5 +1,6 @@
 sktime
 scikit-learn>=1.4
+skpro
 statsmodels
 seaborn
 pmdarima
