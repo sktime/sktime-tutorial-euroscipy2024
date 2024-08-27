@@ -1,4 +1,4 @@
-sktime
+sktime==0.32.3
 scikit-learn>=1.4
 skpro
 statsmodels
@@ -9,3 +9,4 @@ numpy<2.0
 prophet
 optuna
 ipywidgets
+pytest

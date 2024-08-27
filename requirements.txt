@@ -1,4 +1,4 @@
-sktime
+sktime==0.32.3
 scikit-learn>=1.4
 skpro
 statsmodels
@@ -17,3 +17,5 @@ setuptools
 transformers
 peft
 accelerate
+pytest
+-e ./example_package

@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ensemble_forecasting"
+name = "ensemble_forecaster"
 version = "0.1.0"
 description = "An example 2nd party sktime library"
 readme = "README.md"
