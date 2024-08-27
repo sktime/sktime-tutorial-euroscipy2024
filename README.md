@@ -112,7 +112,7 @@ Open a console and navigate to the root of the repository clone.
 2. Activate your environment:
 `conda activate sktime_euroscipy`
 3. Install required packages:
-`pip install -r requirements.txt`
+`pip install -r requirements_lite.txt`
 4. If using jupyter: make the environment available in jupyter:
 `python -m ipykernel install --user --name=sktime_euroscipy`
 
@@ -124,7 +124,7 @@ Open a console and navigate to the root of the repository clone.
  - `source sktime_euroscipy/bin/activate` for Linux
  - sktime_pydata/Scripts/activate` for Windows
 3. Install the requirements:
-`pip install -r requirements`
+`pip install -r requirements_lite`
 4. If using jupyter: make the environment available in jupyter:
 `python -m ipykernel install --user --name=sktime_euroscipy`
 

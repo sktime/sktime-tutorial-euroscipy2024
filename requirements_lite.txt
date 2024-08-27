@@ -8,11 +8,3 @@ numpy<2.0
 prophet
 optuna
 ipywidgets
-networkx
-pytorch-forecasting
-torch<2.4.0
-lightning
-setuptools
-transformers
-peft
-accelerate
