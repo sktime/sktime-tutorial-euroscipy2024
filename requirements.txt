@@ -17,3 +17,5 @@ setuptools
 transformers
 peft
 accelerate
+pytest
+-e example_package
