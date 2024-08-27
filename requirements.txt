@@ -18,4 +18,4 @@ transformers
 peft
 accelerate
 pytest
--e example_package
+-e ./example_package
